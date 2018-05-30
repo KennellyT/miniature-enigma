@@ -53,7 +53,7 @@ for i in IDS:
     half_life = data.half_life(str(i))
     half_lives.append(half_life)
 nuclide_data = zip(IDS,generation,half_lives,parent_text)
-print(list(nuclide_data))
+print(list(nuclide_data'\n'))
 print('Parent to child relationship:' + str(parent_text))
 print(parent_to_child)
 print('generations:' + str(generation))
